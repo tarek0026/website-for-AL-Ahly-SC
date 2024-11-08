@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #811021;
+    color: white;
+}
+
+header {
+    background-color: #a50024;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    color: whitesmoke;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3.5rem 0;
+}
+
+.side-image {
+    width: 450px; 
+    height: auto; 
+    margin:  0px; 
+}
+
+.content, .club-info {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #A50024;
+}
